@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" 
+rel="stylesheet">
+</head>
+<body>
+<form action="">
+
+    <h1>freeCodeCampSurveyForm</h1>
+
+    <p>Thank you for taking the time to help us improve the platform</p>
+    <br>
+    
+    <div class="content">
+        
+        <!--Nom-->
+        <label for="text">Name</label>
+        <br>
+        <input type="text" placeholder="enter your name" style="width: 100%;" required>
+        <br>
+        <br>
+
+        <!--adresse mail-->
+        <label for="email">Email</label>
+        <br>
+        <input type="email" placeholder="Enter your Email" style="width: 100%;" required>
+        <br>
+        <br>
+
+        <!--l'age-->
+        <label for="age">Age</label>
+        <br>
+        <input type="age" placeholder="Age" style="width: 100%;">
+        <br>
+        <br>
+
+        <!--liste déroulante des postes-->
+        <label for="poste">Which option best describes your current role?</label>
+        <br>
+        <select name="poste" id="poste" aria-placeholder="Select current role" style="width: 100%;">
+            <option value="disabled selected">Select current role</option>
+            <option value="Administrative assistant">Administrative assistant</option>
+            <option value="Director">Director</option>
+            <option value="Coordinator">Coordinator</option>
+            <option value="Business Manager">Business Manager</option>
+            <option value="Human Resources">Human Resources</option>
+            <option value="Project Manager">Project Manager</option>
+        </select>
+        <br>
+        <br>
+
+        <!--Recommandation du site-->
+        <label for="radio">Would you recommend free</label>
+        <br>
+        <input type="radio">
+        <label for="radio">Definitely</label>
+        <br>
+        <input type="radio">
+        <label for="radio">Maybe</label>
+        <br>
+        <input type="radio">
+        <label for="radio">Not sure</label>
+        <br>
+        <br>
+
+        <!---->
+        <label for="favorite-feature">What is your favorite feature of FreeCodeCamp </label>
+        <br>
+        <select name="favorite-feature" id="favorite-feature" aria-placeholder="Select an option" style="width: 100%;">
+            <option value="disabled selected">Select an option</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="vs-code">Visual Studio Code</option>
+        </select>
+        <br>
+        <br>
+
+        <!---->
+        <label for="checkbox">What whould you like to see improved? (check all that apply) </label>
+        
+        <br>
+        <input type="checkbox">
+        <label for="checkbox">Front-end Projects</label>
+       
+        <br>
+        <input type="checkbox">
+        <label for="checkbox">Back-end Project</label>
+        
+        <br>
+        <input type="checkbox">
+        <label for="checkbox">Data Visualization</label>
+        
+        <br>
+        <input type="checkbox">
+        <label for="checkbox">Challenges</label>
+        
+        <br>
+        <input type="checkbox">
+        <label for="checkbox">Open source Community</label>
+        
+        <br>
+        <input type="checkbox">
+        <label for="checkbox">Gitter help rooms</label>
+        
+        <br>
+        <input type="checkbox">
+        <label for="checkbox">Videos</label>
+       
+        <br>
+        <input type="checkbox">
+        <label for="checkbox">City meetups</label>
+        
+        <br>
+        <input type="checkbox">
+        <label for="checkbox">Wiki</label>
+        
+        <br>
+        <input type="checkbox">
+        <label for="checkbox">Forum</label>
+        
+        <br>
+        <input type="checkbox">
+        <label for="checkbox">Additional Courses</label>
+        <br>
+        <br>
+
+        <!--espace pour commentaire -->
+        <label for="text">Any comments or suggestions?</label>
+        <br>
+        <br>
+        <input type="text" placeholder="enter your comment here..." style="height: 100px; width: 100%;">
+        <br>
+        <br>
+
+
+        <button type="submit">Submit</button>
+    
+    
+    </div>
+</form>
+</body>
+</html>

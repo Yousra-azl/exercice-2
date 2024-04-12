@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(rgba(104, 134, 231, 0.5), rgba(104, 134, 231, 0.5)), url('image.png'); 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    block-size: auto;
+    font-family: "work sans" , sans-serif ;
+    background-size: cover;
+    }
+h1 , p{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-family: "work sans" , sans-serif ;
+    }
+.content{
+    background-color:rgba(19, 19, 58,0.85) ;
+    padding: 20px 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+button {
+    background-color: #009933;
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
+
